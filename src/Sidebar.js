@@ -1,7 +1,6 @@
 import React from "react";
-import TryBoards from "./Tryboards";
 import { ProSidebar, Menu, MenuItem, SubMenu } from "react-pro-sidebar";
-import {BrowserRouter as Router,Switch,Link,Route } from "react-router-dom";
+import {Link } from "react-router-dom";
 
 import "react-pro-sidebar/dist/css/styles.css";
 import { FaUserAlt, FaBuromobelexperte, FaTag, FaBolt } from "react-icons/fa";
@@ -17,7 +16,7 @@ const Sidebar = () => {
           </MenuItem>
           <SubMenu title="Projects">
             <MenuItem>
-              <Link to="/main">
+              <Link to="/">
                 {" "}
                 <FaUserAlt /> Welcome
               </Link>

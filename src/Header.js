@@ -10,9 +10,6 @@ const Header = () => {
         <Nav className="mr-auto">
           <Nav.Link href="#home"><FaHome/></Nav.Link>
           <FormControl type="text" placeholder=" Search" className="mr-sm-2 form-control" />
-
-          <Nav.Link href="#features" className="ml-auto">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
         </Nav>
         <Form inline>
         </Form>
